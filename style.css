@@ -1,0 +1,190 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.top{
+    display:grid;
+    grid-template-columns: 50% 50%;
+    grid-gap:20px;
+    border:2px solid black;
+    margin:30px auto;
+    width:1252px;
+    background-color:black;
+    border-radius:20px;
+    
+}
+
+hr{
+    width:1200px;
+    
+    background-color:rgb(67, 71, 71);
+}
+
+.container>img{
+    width:90%;
+    margin-top:30px;
+    
+}
+
+.container>h1{
+    font-size:70px;
+    margin-bottom:28px;
+    font-weight:1500;
+}
+.container>h4{
+    font-weight:200;
+}
+.first{
+    padding-left:80px;
+    color:white;
+}
+
+.op{
+    padding:13px 28px;
+    font-size:18px;
+    color:white;
+    background-color: red;
+    border-radius:7px;
+}
+
+.middle{
+    display:grid;
+    grid-template-columns: 20% 80%;
+    width:1252px;
+    margin:auto;
+    grid-gap:20px;
+}
+
+
+.white{
+    padding: 16px 30px;
+    color:black;
+    background-color: white;
+    border:2px solid rgb(22, 21, 21);
+    border-radius: 8px;
+    font-size:17px;
+    font-weight:700;
+    margin:13px 20px;
+
+}
+.red{
+    padding: 16px 30px;
+    color:rgb(255, 255, 255);
+    background-color: rgb(255, 3, 3);
+    border:2px solid rgb(244, 12, 12);
+    border-radius: 8px;
+    font-size:17px;
+    font-weight:700;
+    margin:13px 20px;
+    margin-bottom:5px;
+
+}
+
+.last{
+    border:2px solid rgb(16, 16, 16);
+    background-color: black;
+    display:flex;
+    border-radius: 20px;
+    flex-direction:column;
+    height:260px;
+}
+
+.cd{
+    
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:5px;
+}
+
+#lew{
+    border: 2px solid black;
+    background-color: beige;
+    color:black;
+    font-weight:650;
+    padding:6px 12px;
+    margin-left:17px;
+    margin-top:10px;
+    border-radius: 7px;
+
+}
+
+.card p,.hj{
+    margin-left:17px;
+}
+
+.card p{
+    font-weight:1000;
+}
+
+.hj{
+    margin-right:-5px;
+}
+
+.loi{
+    display:inline;
+    margin-right:30px;
+}
+
+.sin{
+    display:inline;
+    margin-right:-5px;
+}
+ 
+.third{
+    display:grid;
+    grid-template-rows: 45% 5% 45%;
+    background-color: black;
+    grid-gap:50px;
+    margin-top:100px;
+    width:100%;
+    height:100%;
+    
+    
+    
+} 
+
+.foot{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    background-color:black;
+    width:100%;
+    
+
+}
+
+.si{
+    display:flex;
+    justify-content: center;
+    font-size:40px;
+    color:white;
+}
+
+.lj{
+    display: grid;
+    padding-left:30px;
+    padding-right:30px;
+    color:rgb(89, 94, 99);
+}
+
+
+.enjoy{
+    display:flex;
+    justify-content:center;
+    display:none;
+    
+    
+}
+
+.third{
+    
+}
+
+.vj{
+    display:flex;
+    flex-direction: row;
+}
+
+
+

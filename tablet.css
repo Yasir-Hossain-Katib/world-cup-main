@@ -1,0 +1,146 @@
+@media only screen and (max-width:1024px){
+    body{
+        background-color: rgb(246, 237, 237);
+    }
+    .top{
+        display:grid;
+        grid-template-columns: 50% 50%;
+        grid-gap:20px;
+        border:2px solid black;
+        margin:30px auto;
+        width:900px;
+        background-color:black;
+        border-radius:20px;
+        
+    }
+
+    .container>h1{
+        font-size:50px;
+        margin-bottom:28px;
+        font-weight:1500;
+    }
+
+    .container>h4{
+        font-size:12px;
+    }
+
+    .op{
+        padding:15px 30px;
+        font-size: 24px;;
+    }
+
+    .middle{
+        display:flex;
+        flex-direction:column;
+        width:900px;
+        
+    }
+
+    .last{
+        display:grid;
+        grid-template-columns: repeat(3,1fr);
+        background-color:rgb(246, 237, 237);
+        height:100px;
+        width:900px;
+        margin-left:0px;
+        border:none;
+        align-items: baseline;
+    }
+    
+    .white{
+        padding:10px 10px;
+        border:2px solid rgb(221, 211, 211);
+        font-size:22px;
+        height:100px;
+        
+    }
+
+    .red{
+        padding:30px 10px;
+        height:98px;
+        font-size:22px;
+        margin-top:15px;
+    }
+
+    .cd{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap:0px;
+        justify-content:center;
+        margin-top:150px;
+    }
+
+    .sp{
+        display:none;
+    }
+    
+    .card{
+        border:2px solid rgb(221, 211, 211);
+        border-radius:15px;
+        width:450px;
+        margin:0px;
+        margin-bottom:20px;
+    }
+
+    .jik{
+        width:450px;
+    }
+
+    #lew{
+        padding:10px 20px;
+        font-size:20px;
+
+    
+    }
+
+    .card p{
+        font-size:30px;
+    }
+
+    .jk{
+        margin-left:50px;
+    }
+    .enjoy{
+        display:visible;
+        display:flex;
+        /* display:visible; */
+        justify-content:center;
+    }
+    .red{
+        margin-top:100px;
+        display:flex;
+        justify-content:center;
+    }
+
+    .third{
+        width:1024px;
+    }
+
+    .lj{
+        padding-left:50px;
+        padding-right:50px;
+    }
+
+    .foot{
+        flex-wrap: wrap;
+        width:1024px;
+        
+    }
+
+    .si{
+        width:1024px;
+    }
+
+    hr{
+        width:900px;
+    }
+    .vj{
+        display:flex;
+        flex-direction:row;
+        width:800px;
+        flex-wrap:wrap;
+        justify-content:center;
+
+    }
+
+}
